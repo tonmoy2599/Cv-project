@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+max-width: 1000px;
+background-color: #E4F9F5;
+margin: 0 auto;
+padding: 20px;
+
+}
+.img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+float: left;
+padding: 30px;
+
+}
+.h1,h2,h3,h4,h5,h6{
+
+color: #11999e;
+
+
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+text-decoration: none;
+color: teal;
+font-weight: bold;
+}
+
+
+
+
+.header-contact a:hover{
+    color: tomato;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-clear{
+  clear: both;  
+}
+.hr{
+    border: 3px solid black;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*-----------------------
+Personal section start
+-----------------------*/
+#personal-section{
+
+}
+.content{
+
+margin-bottom: 30px;
+}
+.left-div{
+width: 30%;
+float: left;
+
+}
+.right-div{
+    width: 70%;
+    float:left;
+
+}
+.common-hr{
+    border: 1px solir black;
+    border-bottom: none;
+    width: 100%;
+    margin: 0 auto;
+}
+.edu-tmplate-left{
+    float: left;
+    width: 45%;
+}
+.edu-tmplate-right{
+float: right;
+width: 50%;
+
+}
+.h{
+    float:right;
+    width: 55%;
+}
+.k{
+    float:right;
+    width: 80%;    
+}
+
+.footer{
+background-color: black;
+text-align: center;
+padding: 10px;
+}
+.footer p{
+color: white;
+text-decoration: none;
+margin-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: red;
+    margin: 20px;
+}
+.footer a:hover{
+    color: green;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
